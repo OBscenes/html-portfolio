@@ -1,0 +1,205 @@
+*{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.nbtopmenu{
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.nbtopmenu1{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}    
+
+.nbboa{
+    width: 300px;
+    background-color: black;
+}
+
+.newbalance{
+    display: block;
+    width: 100%;
+    background-color: #e5e5cb;
+
+}
+
+.newbalance1{
+    display: block;
+    width: 100%;
+    background-color: #e5e5cb;
+    display: grid;
+    overflow-x: scroll;
+}
+
+.newbalance12{
+    width: 100%;
+    background-color: #e5e5cb;
+    text-align: center;
+}
+
+.newbalancelg{
+    width: 400px;
+    background-color: transparent;
+    margin-top: 50px; 
+}
+
+
+
+.newbalance13 > img{
+    width: 250px;
+    background-color: #e5e5cb;
+}
+
+.newbalance13{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nbsale{
+    margin-top: 40px;
+}
+
+#h2sales{
+    font-size: 48px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.nbsale1{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px auto;   
+}
+
+.nbshoelist{
+    list-style: none;
+    line-height: 3;
+    display: inline-block;
+    border-right: 1px solid silver;
+    padding-right: 20px;
+    height: 343px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 15px ;
+
+}
+
+.nbshoelist1{
+    border-bottom: 1px solid silver;
+    
+}
+
+.nbsale3{
+    display: flex;
+    gap: 40px;
+    overflow-x: scroll;
+}
+
+.nbsaleall > img{
+    width: 280px;
+}
+
+.boaclanshoes{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: lightgray;
+}
+
+.discount{
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.discount1{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    margin-top: 50px;
+}
+
+.discount2{
+    display: inline-block;
+    background-color: #000000;
+}
+
+.sterling{
+    width: 400px;
+    display: inline-block;
+    background-color: #000000;
+}
+
+.sterlingquote{
+    width: 300px;
+}
+
+.discounth2{
+    font-size: 32px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.runners{
+    width: 100%;
+    display: inline-block;
+    padding-top: 60px;
+    background-color: #e5e5cb;
+}
+
+.runners1{
+    display: inline-block;
+    background-color: #e5e5cb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 10px;
+}
+
+.runners2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.runners3{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin-top: 100px;
+}
+
+.runners4{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-end: 3;
+    
+}
+
+.runners1 > div{
+    background-color: #e5e5cb;
+}
+
+.runners1 > div > img{
+    width: 100%;
+}
+
+.runnerh2{
+    font-size: 48px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #9c8878;
+    background-color: #e5e5cb;
+}
